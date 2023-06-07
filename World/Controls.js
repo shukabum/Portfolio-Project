@@ -34,7 +34,7 @@ export default class Controls {
     {
         //Desktop
         ScrollTrigger.matchMedia({
-            "(min-width: 400px)":()=>{
+            "(min-width: 500px)":()=>{
                 this.room.scale.set(0.15, 0.15, 0.15);
 
                 this.camera.orthographicCamera.position.set(0.5, 0.5, 0);
@@ -366,7 +366,7 @@ export default class Controls {
 
             },
              //mobile
-        "(max-width: 400px)": () => {
+        "(max-width: 500px)": () => {
             // console.log("fired mobile");
 
             // Resets
@@ -376,7 +376,7 @@ export default class Controls {
             this.experience.world.room.rectLight.height = 0.5;
             this.experience.world.room.rectLight1.height =0.1;
             this.experience.world.room.rectLight1.width = 0.1;
-           this.floor.circleFirst.position.set(.50,0);
+            this.floor.circleFirst.position.set(.50,0);
            // this.camera.orthographicCamera.position.set(0.5, 0.5, 10);
 
              // First section -----------------------------------------

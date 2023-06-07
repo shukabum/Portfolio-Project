@@ -394,7 +394,7 @@ svg{
   color: rgb(227, 105, 236);
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
   .experience-canvas{
     transform: scale(1);
   }
